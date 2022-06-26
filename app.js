@@ -11,6 +11,9 @@ app.get('/test', async (req, res) => {
     //
     //     }, 5000)
     // }
+    if(true){
+        console.log("hello")
+    }
     if (true) {
         await sleep(() => {
             console.log('after sleep')
