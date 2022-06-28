@@ -12,6 +12,7 @@ app.get('/test', async (req, res) => {
     //     }, 5000)
     // }
     if(true){
+        console.log("worlkd")
         console.log("hello")
     }
     if (true) {
